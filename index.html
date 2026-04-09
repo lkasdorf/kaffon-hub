@@ -6,6 +6,7 @@
     <title>kaffon-hub</title>
     <link rel="icon" type="image/svg+xml" href="assets/2024_Logo_mainK.svg">
     <style>
+        /* === Reset & Base === */
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -18,6 +19,8 @@
             padding: 40px 20px;
         }
         .container { max-width: 640px; width: 100%; }
+
+        /* === Hero section: logo, title, subtitle === */
         .hero {
             text-align: center;
             margin-bottom: 48px;
@@ -31,7 +34,7 @@
         .hero .logo img {
             width: 100%;
             height: 100%;
-            filter: invert(1);
+            filter: invert(1); /* SVG logo is black; invert to white for dark background */
         }
         .hero h1 {
             font-size: 32px;
@@ -47,6 +50,8 @@
             font-size: 15px;
             color: #64748b;
         }
+
+        /* === Link cards: each tool gets a glassmorphism card === */
         .links { list-style: none; display: flex; flex-direction: column; gap: 14px; }
         .links a {
             display: flex;
@@ -67,6 +72,8 @@
             box-shadow: 0 4px 24px rgba(59,130,246,0.1);
             transform: translateY(-2px);
         }
+
+        /* Icon badge on the left side of each card */
         .link-icon {
             flex-shrink: 0;
             width: 44px;
@@ -78,6 +85,8 @@
             font-size: 20px;
         }
         .link-icon.blue { background: rgba(59,130,246,0.15); color: #60a5fa; }
+
+        /* Card text: title, description, metadata */
         .link-text { flex: 1; }
         .link-title {
             font-size: 16px;
@@ -99,6 +108,8 @@
         .link-meta span::before {
             margin-right: 4px;
         }
+
+        /* Arrow indicator on the right; slides on hover */
         .link-arrow {
             flex-shrink: 0;
             font-size: 18px;
@@ -109,6 +120,8 @@
             transform: translateX(4px);
             color: #3b82f6;
         }
+
+        /* === Footer === */
         .footer {
             text-align: center;
             margin-top: 48px;
@@ -119,11 +132,15 @@
 </head>
 <body>
     <div class="container">
+
+        <!-- Hero: branding and tagline -->
         <div class="hero">
             <div class="logo"><img src="assets/2024_Logo_mainK.svg" alt="kaffon Logo"></div>
             <h1>kaffon-hub</h1>
             <p>Statische HTML-Tools</p>
         </div>
+
+        <!-- Tool links — each <li> is one hosted page -->
         <ul class="links">
             <li>
                 <a href="pages/EBD_Interaktiv.html" target="_blank" rel="noopener">
@@ -154,6 +171,7 @@
                 </a>
             </li>
         </ul>
+
         <div class="footer">Leon Kasdorf &middot; 2026</div>
     </div>
 </body>
