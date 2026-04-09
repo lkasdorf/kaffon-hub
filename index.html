@@ -22,18 +22,15 @@
             margin-bottom: 48px;
         }
         .hero .logo {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-            border-radius: 16px;
-            font-size: 28px;
-            font-weight: 700;
-            color: white;
+            display: inline-block;
+            width: 72px;
+            height: 72px;
             margin-bottom: 20px;
-            letter-spacing: -1px;
+        }
+        .hero .logo img {
+            width: 100%;
+            height: 100%;
+            filter: invert(1);
         }
         .hero h1 {
             font-size: 32px;
@@ -122,7 +119,7 @@
 <body>
     <div class="container">
         <div class="hero">
-            <div class="logo">K</div>
+            <div class="logo"><img src="assets/2024_Logo_mainK.svg" alt="kaffon Logo"></div>
             <h1>kaffon-hub</h1>
             <p>Statische HTML-Tools</p>
         </div>

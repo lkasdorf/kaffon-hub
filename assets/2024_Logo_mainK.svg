@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="2024_Logo_mainK.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.33582137"
+     inkscape:cx="784.64334"
+     inkscape:cy="932.04313"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffff00" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 250.00024,8.5415975 A 241.45847,241.45847 0 0 0 8.5415975,250.00024 241.45847,241.45847 0 0 0 250.00024,491.45837 241.45847,241.45847 0 0 0 491.45837,250.00024 241.45847,241.45847 0 0 0 250.00024,8.5415975 Z M 86.787984,114.67827 H 181.94238 V 216.9542 L 281.7182,114.67827 H 408.17043 L 296.00157,216.76971 413.21199,385.3217 H 296.00157 L 231.09494,273.99981 181.94238,319.23013 V 385.3217 H 86.787984 Z"
+       style="stroke:#000000;stroke-width:3.35914;fill:#000000"
+       id="path3"
+       inkscape:export-filename="2024_kaffon_mainK_transparent.png"
+       inkscape:export-xdpi="72"
+       inkscape:export-ydpi="72" />
+  </g>
+</svg>
