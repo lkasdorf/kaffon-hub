@@ -1,9 +1,10 @@
 # kaffon-hub
 
-Zentrale Seite zum Verlinken und Teilen statischer HTML-Tools.
+Central hub for hosting and sharing static HTML tools.
 
-## Gehostete Seiten
+## Hosted Pages
 
-| Seite | Beschreibung |
-|-------|-------------|
-| [EBD Interaktiv](EBD_Interaktiv.html) | Entscheidungsbaumdiagramme der MaKo durchsuchen und filtern |
+| Page | Description |
+|------|-------------|
+| [EBD Interaktiv](https://lkasdorf.github.io/kaffon-hub/pages/EBD_Interaktiv.html) | Search and filter Entscheidungsbaumdiagramme (decision tree diagrams) for MaKo |
+| [Kaffon Regulatory Map](https://lkasdorf.github.io/kaffon-hub/pages/Regulatory_Map_Kaffon.html) | Regulatory landscape map for Kaffon |
